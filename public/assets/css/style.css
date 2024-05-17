@@ -1,0 +1,386 @@
+#myContainer {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.left-side {
+    background-color: #0D28A6;
+    width: 5%;
+    height: 795px;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+#navbar-top {
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05) !important;
+    width: 100% !important;
+    height: 9%;
+    position: fixed;
+    top: 0;
+    margin-left: 5%;
+    z-index: 100;
+}
+
+.left-side-content {
+    background-color: #FFFFFF;
+    width: 20%;
+    position: fixed;
+    top: 9%;
+    left: 5%;
+    height: 732px;
+}
+
+.right-side-content {
+    background-color: #E5E5E5;
+    width: 75% !important;
+    margin-top: 4%;
+    margin-left: 25%;
+    padding-top: 0.7%;
+}
+
+/* CSS Navbar Left Side */
+
+.logo-left {
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+}
+
+.btn-home {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.cstm-btn-home {
+    color: #FFFFFF !important;
+    font-size: 12px !important;
+}
+
+.btn-truck {
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.cstm-btn-truck {
+    color: #FFFFFF !important;
+    font-size: 12px !important;
+}
+
+/* CSS Navbar Top */
+
+#navbar-top {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo-top {
+    margin-left: 2%;
+}
+
+.icon-menu {
+    margin-left: 13%;
+}
+
+.search {
+    width: 20% !important;
+    margin-left: 38%;
+}
+
+.cstm-btn-search {
+    background-color: #FFFFFF;
+    border: 1px solid #0D28A6 !important;
+    color: #0D28A6 !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    box-sizing: border-box !important;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3%;
+}
+
+.username {
+    padding-top: 10%;
+    margin-left: 8px;
+    margin-right: 14px;
+}
+
+/* CSS Left Side Content */
+
+.title {
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.title p {
+    margin-left: 10%;
+    font-size: 14px;
+    font-weight: 700;
+    color: #8A8A8A;
+}
+
+.category {
+    background-color: #CFD4ED;
+}
+
+.category p {
+    margin-left: 10%;
+    font-size: 14px;
+    font-weight: 700;
+    color: #151515;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* CSS Right Side Content */
+
+.list_page {
+    margin-left: 1.5%;
+    margin-top: 18px;
+}
+
+.link_home {
+    color: #000000;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    padding-top: 4px;
+}
+
+.link_active {
+    font-size: 12px;
+    font-weight: 300;
+    color: #222222;
+    padding-top: 5px;
+}
+
+.add_new_car {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.title-add {
+    margin-left: 1.5%;
+}
+
+.title-add p {
+    padding-top: 9px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btn-add-car {
+    margin-top: 8px;
+    margin-left: 79%;
+}
+
+.btn-add-car button {
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #0D28A6;
+    color: #FFFFFF;
+}
+
+.btn-add-car button:hover {
+    color: #FFFFFF;
+}
+
+.btn-add-car button img {
+    width: 18px;
+    height: 18px;
+    margin-top: -5px;
+}
+
+.filter {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 1.5%;
+    margin-top: 8px;
+}
+
+.btn-filter-active {
+    background-color: #CFD4ED !important;
+    border: 1px solid #0D28A6 !important;
+    color: #0D28A6 !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    margin-right: 16px;
+}
+
+.btn-filter {
+    background-color: #FFFFFF !important;
+    border: 1px solid #AEB7E1 !important;
+    color: #AEB7E1 !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    margin-right: 16px;
+}
+
+.card {
+    width: 351px;
+    height: 446px;
+}
+
+.card img {
+    width: 270px;
+    height: 160px;
+    object-fit: scale-down;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.card-name-car {
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 7%;
+}
+
+.card-price {
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 7%;
+}
+
+.info-car {
+    display: flex;
+    flex-direction: row;
+    margin-left: 7%;
+}
+
+.info-car img {
+    width: 20px;
+    height: 20px;
+    margin: 0 !important;
+}
+
+.info-car p {
+    margin-top: -2px;
+    margin-left: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.card-body a {
+    margin-top: 20px !important;
+}
+
+.item-car {
+    margin-top: 2%;
+    padding-bottom: 4%;
+    margin-left: 1.5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 28px;
+}
+
+.btn-card {
+    margin-top: 5%;
+}
+
+.cstm-btn-delete {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.btn-delete {
+    width: 120px;
+    height: 35px;
+    color: #FA2C5A !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    border: 1px solid #FA2C5A !important;
+    padding-left: 0 !important;
+}
+
+.btn-delete img {
+    width: 14px;
+    height: 14px;
+    margin-top: -3px;
+}
+
+.btn-edit {
+    width: 120px;
+    background-color: #5CB85F !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    color: #FFFFFF !important;
+    padding-left: 0 !important;
+    margin-left: 10%;
+}
+
+.btn-edit img {
+    width: 14px;
+    height: 14px;
+    margin-top: -3px;
+}
+
+.modal-footer {
+    display: flex !important;
+    justify-content: center !important;
+    gap: 15px;
+}
+
+.btn-yes {
+    width: 87px !important;
+    background-color: #0D28A6 !important;
+    color: #FFFFFF !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+}
+
+.btn-no {
+    width: 87px !important;
+    background-color: #FFFFFF !important;
+    color: #0D28A6 !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    border: 1px solid #0D28A6 !important;
+}
+
+a.btn.btn-no {
+    margin: 0 !important;
+}
+
+.logo-modal {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.logo-modal img {
+    width: 150px;
+    height: 135px;
+    margin: 0;
+}
+
+.title-modal {
+    display: flex;
+    justify-content: center;
+}
+
+.title-modal h5 {
+    font-size: 20px !important;
+    font-weight: 700 !important;
+}
+
+.ket-modal {
+    display: flex;
+    justify-content: center;
+}
+
+.ket-modal p {
+    font-size: 18px !important;
+    font-weight: 300 !important;
+}

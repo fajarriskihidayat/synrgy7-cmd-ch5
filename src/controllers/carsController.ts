@@ -59,14 +59,14 @@ export const getCarsById = async (req: Request, res: Response) => {
 
 export const createCar = async (req: Request, res: Response) => {
   const { size_id, name, rentPerDay } = req.body;
-  const img_url = req.file as Express.Multer.File;
+  const image = req.file as Express.Multer.File;
 
-  if (!size_id || !name || !rentPerDay || !img_url) {
+  if (!size_id || !name || !rentPerDay || !image) {
     return res.status(400).json({ message: "Data not null" });
   }
 
-  const filebase64 = img_url.buffer.toString("base64");
-  const file = `data:${img_url.mimetype};base64,${filebase64}`;
+  const filebase64 = image.buffer.toString("base64");
+  const file = `data:${image.mimetype};base64,${filebase64}`;
 
   try {
     cloudinary.uploader.upload(
@@ -81,10 +81,11 @@ export const createCar = async (req: Request, res: Response) => {
           img_url: result.url,
         });
 
-        res.status(200).json({
-          message: "Created car success",
-          data: addCar,
-        });
+        res.redirect("/");
+        // res.status(200).json({
+        //   message: "Created car success",
+        //   data: addCar,
+        // });
       }
     );
   } catch (error: any) {
@@ -119,12 +120,13 @@ export const updateCar = async (req: Request, res: Response) => {
         if (editCar[0] === 0)
           return res.status(404).json({ message: "Data not found" });
 
-        res.status(200).json({
-          message: "Updated car success",
-          data: {
-            updated: editCar[0],
-          },
-        });
+        res.redirect("/");
+        // res.status(200).json({
+        //   message: "Updated car success",
+        //   data: {
+        //     updated: editCar[0],
+        //   },
+        // });
       }
     );
   } catch (error: any) {

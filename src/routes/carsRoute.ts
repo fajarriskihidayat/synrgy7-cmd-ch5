@@ -1,4 +1,4 @@
-import { Router } from "express";
+import { Request, Response, Router } from "express";
 import {
   createCar,
   deleteCar,
@@ -12,8 +12,8 @@ const upload = require("../middleware/upload");
 
 router.get("/", getCars);
 router.get("/:id", getCarsById);
-router.post("/", upload.single("picture"), createCar);
-router.put("/:id", upload.single("picture"), updateCar);
-router.delete("/:id", upload.single("picture"), deleteCar);
+router.post("/create", upload.single("picture"), createCar);
+router.post("/edit/:id", upload.single("picture"), updateCar);
+router.delete("/delete/:id", upload.single("picture"), deleteCar);
 
 module.exports = router;

@@ -1,0 +1,307 @@
+#myContainer {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.left-side {
+    background-color: #0D28A6;
+    width: 5%;
+    height: 795px;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+#navbar-top {
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05) !important;
+    width: 100% !important;
+    height: 9%;
+    position: fixed;
+    top: 0;
+    margin-left: 5%;
+    z-index: 100;
+}
+
+.left-side-content {
+    background-color: #FFFFFF;
+    width: 20%;
+    position: fixed;
+    top: 9%;
+    left: 5%;
+    height: 732px;
+}
+
+.right-side-content {
+    background-color: #E5E5E5;
+    width: 75% !important;
+    margin-top: 4%;
+    margin-left: 25%;
+    padding-top: 0.7%;
+    height: 732px;
+}
+
+/* CSS Navbar Left Side */
+
+.logo-left {
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+}
+
+.btn-home {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.cstm-btn-home {
+    color: #FFFFFF !important;
+    font-size: 12px !important;
+}
+
+.btn-truck {
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.cstm-btn-truck {
+    color: #FFFFFF !important;
+    font-size: 12px !important;
+}
+
+/* CSS Navbar Top */
+
+#navbar-top {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo-top {
+    margin-left: 2%;
+}
+
+.icon-menu {
+    margin-left: 13%;
+}
+
+.search {
+    width: 20% !important;
+    margin-left: 38%;
+}
+
+.cstm-btn-search {
+    background-color: #FFFFFF;
+    border: 1px solid #0D28A6 !important;
+    color: #0D28A6 !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    box-sizing: border-box !important;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3%;
+}
+
+.username {
+    padding-top: 10%;
+    margin-left: 8px;
+    margin-right: 14px;
+}
+
+/* CSS Left Side Content */
+
+.title {
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.title p {
+    margin-left: 10%;
+    font-size: 14px;
+    font-weight: 700;
+    color: #8A8A8A;
+}
+
+.category {
+    background-color: #CFD4ED;
+}
+
+.category p {
+    margin-left: 10%;
+    font-size: 14px;
+    font-weight: 700;
+    color: #151515;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* CSS Right Side Content */
+
+.list_page {
+    margin-left: 1.5%;
+    margin-top: 18px;
+}
+
+.link_home {
+    color: #000000;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    padding-top: 4px;
+}
+
+.link_list_car {
+    color: #000000 !important;
+    font-size: 12px;
+    font-weight: 700;
+    padding-top: 5px;
+}
+
+.link_active {
+    font-size: 12px;
+    font-weight: 300;
+    color: #222222 !important;
+    padding-top: 5px;
+}
+
+.add_new_car {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.title-add {
+    margin-left: 1.5%;
+}
+
+.title-add p {
+    padding-top: 9px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.form_add {
+    width: 97%;
+    height: 300px;
+    margin-left: 1.5%;
+    background-color: #FFFFFF;
+}
+
+.form_nama {
+    display: flex;
+    margin-left: 3%;
+    padding-top: 2%;
+}
+
+.form_nama p {
+    font-size: 12px;
+    font-weight: 300;
+    color: #3C3C3C;
+    padding-top: 1%;
+}
+
+.form_nama input {
+    width: 340px;
+    height: 40px;
+    font-size: 12px !important;
+    margin-left: 11%;
+}
+
+.form_sewa {
+    display: flex;
+    margin-left: 3%;
+    padding-top: 2%;
+}
+
+.form_sewa p {
+    font-size: 12px;
+    font-weight: 300;
+    color: #3C3C3C;
+    padding-top: 1%;
+}
+
+.form_sewa input {
+    width: 340px;
+    height: 40px;
+    font-size: 12px !important;
+    margin-left: 7.5%;
+}
+
+.form_ukuran {
+    display: flex;
+    margin-left: 3%;
+    padding-top: 2%;
+}
+
+.form_ukuran p {
+    font-size: 12px;
+    font-weight: 300;
+    color: #3C3C3C;
+    padding-top: 1%;
+}
+
+.form_ukuran select {
+    width: 340px;
+    height: 40px;
+    font-size: 12px !important;
+    margin-left: 10.5%;
+    color: #8A8A8A !important;
+}
+
+.form_foto {
+    display: flex;
+    margin-left: 3%;
+    padding-top: 2%;
+}
+
+.form_foto p {
+    font-size: 12px;
+    font-weight: 300;
+    color: #3C3C3C;
+    padding-top: 1%;
+}
+
+.form_foto input {
+    width: 340px;
+    height: 100%;
+    font-size: 12px !important;
+    margin-left: 11.7%;
+}
+
+#ket_foto {
+    font-size: 12px;
+    font-weight: 300;
+    padding-top: 0.3%;
+    margin-left: 2%;
+}
+
+.btn_form {
+    margin-left: 1.5%;
+    margin-top: 20%;
+}
+
+.btn_form a {
+    text-decoration: none !important;
+}
+
+.btn-cancel {
+    border: 1px solid #0D28A6 !important;
+    color: #0D28A6 !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    background-color: #FFFFFF !important;
+}
+
+.btn-save {
+    background-color: #0D28A6 !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    color: #FFFFFF !important;
+    margin-left: 1%;
+}
