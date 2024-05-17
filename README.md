@@ -1,4 +1,4 @@
-#ERD
+# ERD
 ![Untitled](https://github.com/fajarriskihidayat/synrgy7-cmd-ch5/assets/113827933/4d48ded9-e9e6-430e-832f-9262c8d85773)
 
 # Rest API
